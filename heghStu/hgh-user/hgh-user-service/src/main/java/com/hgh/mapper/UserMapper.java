@@ -1,7 +1,7 @@
 package com.hgh.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.hgh.entity.po.User;
+import com.hgh.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
