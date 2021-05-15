@@ -13,23 +13,23 @@ public class ResultUtil {
      * @param <T>
      * @return
      */
-    public static <T> Result<T> succ(T data) {
-        Result<T> result = new Result<T>();
+    public static <T> Result<T> success(T data) {
+        Result<T> result = new Result<>();
         result.setCode(CommErrData.SCU.getCode());
         result.setMsg(CommErrData.SCU.getMsg());
         result.setData(data);
         return result;
     }
 
-    public static Result succ() {
-        return succ(null);
+    public static Result success() {
+        return success(null);
     }
 
-    public static Result fail(Object object) {
-        Result result = new Result();
-        result.setCode(10000);
-        result.setMsg("fail");
-        result.setData(object);
+    public static <T> Result<T> fail(T data) {
+        Result<T> result = new Result<>();
+        result.setCode(CommErrData.ERR.getCode());
+        result.setMsg(CommErrData.ERR.getMsg());
+        result.setData(data);
         return result;
     }
 

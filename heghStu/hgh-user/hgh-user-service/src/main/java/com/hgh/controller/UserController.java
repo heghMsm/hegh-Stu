@@ -20,9 +20,9 @@ public class UserController {
     private IUserService userService;
 
     @GetMapping("/user")
-    public Result page(){
+    public Result<Page<User>> page(){
         Page<User> page = new Page<>(1,10);
         Page<User> userPage = userService.page(page);
-        return ResultUtil.succ(userPage);
+        return ResultUtil.success(userPage);
     }
 }
