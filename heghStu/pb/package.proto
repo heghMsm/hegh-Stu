@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+//包名，通过protoc生成时go文件时
+package pb;
+
+// 总包
+message Pack {
+    string mainKey = 1; // mainkey name "heart、user、game"
+    string subKey = 2; // message name
+    string version = 3; // 版本号
+    int64 context = 4; // 客户端上下文
+    bytes data = 5; // 数据
+    int64 timestamp = 6;    // 时间戳
+}
+
+//心跳包 mainkey = heart
+message Heart {
+}
+
+
+
+
+
+
+
+
