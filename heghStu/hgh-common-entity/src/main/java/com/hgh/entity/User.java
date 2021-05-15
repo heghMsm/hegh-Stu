@@ -1,4 +1,4 @@
-package com.hgh.entity.po;
+package com.hgh.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
