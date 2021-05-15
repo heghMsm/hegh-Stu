@@ -1,7 +1,7 @@
 package com.hgh.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.hgh.entity.po.User;
+import com.hgh.entity.User;
 
 /**
  * @author hegh

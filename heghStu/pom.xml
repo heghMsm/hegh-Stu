@@ -12,6 +12,7 @@
         <module>hgh-parent</module>
         <module>hgh-common</module>
         <module>hgh-user</module>
+        <module>hgh-common-entity</module>
     </modules>
 
 

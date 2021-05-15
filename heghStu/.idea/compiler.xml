@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hgh-common" />
+        <module name="hgh-common-entity" />
         <module name="hgh-user-interface" />
         <module name="hgh-user-service" />
       </profile>
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hgh-common" options="-parameters" />
+      <module name="hgh-common-entity" options="-parameters" />
       <module name="hgh-user-interface" options="-parameters" />
       <module name="hgh-user-service" options="-parameters" />
     </option>
