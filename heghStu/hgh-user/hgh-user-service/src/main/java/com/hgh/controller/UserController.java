@@ -3,7 +3,7 @@ package com.hgh.controller;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hgh.entity.po.User;
 import com.hgh.service.IUserService;
-import com.hgh.utils.Result;
+import com.hgh.entity.dto.Result;
 import com.hgh.utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
